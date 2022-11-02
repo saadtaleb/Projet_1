@@ -7,7 +7,7 @@ char nom [30];
 double cin;
 }agents;
 typedef struct bureau_vote { 
-int numer_bureau; 
+int numerau_bureau; 
 char etat[100]; 
 int salle; 
 char municipalite[100] ;
