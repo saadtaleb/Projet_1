@@ -11,7 +11,6 @@ int numerau_bureau;
 char etat[100]; 
 int salle; 
 char municipalite[100] ;
-char adress[100]; 
 int capacite_e; 
 int capacite_o;
 agents agent;
