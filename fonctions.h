@@ -9,6 +9,7 @@ double cin;
 typedef struct bureau_vote { 
 int numer_bureau; 
 char etat[100]; 
+int salle; 
 char municipalite[100] ;
 char adress[100]; 
 int capacite_e; 
