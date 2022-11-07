@@ -1,20 +1,14 @@
 #ifndef FONCTIONS_H_
 #define FONCTIONS_H_
 }
-typedef struct agents 
-{char prenom[30];
-char nom [30]; 
-double cin;
-}agents;
+
 typedef struct bureau_vote { 
-int numerau_bureau; 
-char etat[100]; 
-int salle; 
-char municipalite[100] ;
+int numero_bureau; 
+int salle;
+char adress[100];
 int capacite_e; 
-int capacite_o;
-agents agent;
- 
+int capacite_o; 
+int id_agent;
 } 
 bureau_vote; 
 #endif 
