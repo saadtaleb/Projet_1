@@ -11,4 +11,9 @@ int capacite_o;
 int id_agent;
 } 
 bureau_vote; 
+int ajouter(char *, bureau_vote );
+int modifier( char *, int, bureau_vote );
+int supprimer(char *, int );
+point chercher(char *, int);
+
 #endif 
