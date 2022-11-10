@@ -14,6 +14,6 @@ bureau_vote;
 int ajouter(char *, bureau_vote );
 int modifier( char *, int, bureau_vote );
 int supprimer(char *, int );
-point chercher(char *, int);
+bureau_vote chercher(char *, int);
 
 #endif 
